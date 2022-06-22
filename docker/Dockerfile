@@ -1,11 +1,11 @@
 FROM node:16.15.0
 
-COPY app /usr/src
-
 WORKDIR /usr/src/app
 
-RUN pwd
+COPY package*.json ./
 
-RUN ls
+RUN npm ci --only=production
 
-RUN npm install && npm build
+COPY . ./
+
+CMD [ "node", "server.js" ]
