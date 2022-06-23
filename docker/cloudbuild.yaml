@@ -4,7 +4,7 @@ steps:
       - '--destination=$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA'
       - '--cache=true'
       - '-f'
-      - Dockerfile
+      - 'docker/Dockerfile'
     id: Build and Push
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk:slim'
     args:
