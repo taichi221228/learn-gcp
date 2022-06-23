@@ -1,9 +1,11 @@
+const path = require('path');
 const express = require('express');
 const app = express();
 
+app.use(express.static('build'));
+
 app.get('/', (req, res) => {
-  const name = process.env.NAME || 'World';
-  res.send(`Hello ${name}!`);
+  res.sendFile(path.resolve('build'));
 });
 
 const port = parseInt(process.env.PORT) || 8080;
