@@ -10,13 +10,13 @@ function App() {
           This app is bootstrapped by{' '}
           <a
             className="App-link"
-            href="https://reactjs.orghttps://create-react-app.dev/"
+            href="https://create-react-app.dev/"
             target="_blank"
             rel="noopener noreferrer"
           >
             CRA
-          </a>
-          and hosted by
+          </a>{' '}
+          and hosted by{' '}
           <a
             className="App-link"
             href="https://cloud.google.com/docs"
