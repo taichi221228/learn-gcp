@@ -247,6 +247,9 @@ web_modules/
 .cache
 .parcel-cache
 
+# CRA build output
+build
+
 # Next.js build output
 .next
 out
