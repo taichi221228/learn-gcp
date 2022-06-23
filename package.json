@@ -42,7 +42,7 @@
   "scripts": {
     "build": "react-scripts build",
     "dev": "react-scripts start",
-    "format": "prettier --ignore-path \"./.gitignore\" --write \"**/*.{js,html,css,json}\"",
+    "format": "prettier --ignore-path \"./.gitignore\" --write \"**/*.{js,html,css,json,yaml}\"",
     "serve": "nodemon \"./server.js\"",
     "start": "PORT=${PORT} node \"./server.js\"",
     "test": "react-scripts test"

@@ -7,5 +7,11 @@ module.exports = {
         singleQuote: true,
       },
     },
+    {
+      files: '**/*.yaml',
+      options: {
+        singleQuote: true,
+      },
+    },
   ],
 };
