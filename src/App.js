@@ -6,15 +6,27 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>This app is bootstrapped by CRA and hosted by GCP.</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          This app is bootstrapped by{' '}
+          <a
+            className="App-link"
+            href="https://reactjs.orghttps://create-react-app.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CRA
+          </a>
+          and hosted by
+          <a
+            className="App-link"
+            href="https://cloud.google.com/docs"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GCP
+          </a>
+          .
+        </p>
       </header>
     </div>
   );
