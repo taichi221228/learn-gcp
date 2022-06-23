@@ -1,5 +1,6 @@
 {
   "name": "my-gcp-project",
+  "description": "My GCP Project",
   "version": "0.1.0",
   "browserslist": {
     "production": [
@@ -12,6 +13,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/taichi221228/my-gcp-project/issues",
+    "email": "taichi221228@icloud.com"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -33,6 +38,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://github.com/taichi221228/my-gcp-project#readme",
   "private": true,
   "scripts": {
     "build": "react-scripts build",
