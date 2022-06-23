@@ -6,6 +6,10 @@ RUN ls .
 
 COPY . ./
 
+RUN ls .
+
+RUN ls
+
 RUN npm ci --only=production
 
 CMD [ "node", "server.js" ]
