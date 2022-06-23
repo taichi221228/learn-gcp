@@ -1,7 +1,7 @@
 module.exports = {
   overrides: [
     {
-      files: '**/*.{js,jsx,ts}',
+      files: '**/*.js',
       options: {
         semi: true,
         singleQuote: true,
