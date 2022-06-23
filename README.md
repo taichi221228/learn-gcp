@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
 Push to master on this branch will automatically run GCP.\
-Click on [this](https://my-gcp-project-jyi5cqhvba-dt.a.run.app/) to view it in your browser.
+Click on [this](https://my-gcp-project-jyi5cqhvba-dt.a.run.app/){:target="_blank"} to view it in your browser.
 
 ## Available Scripts
 
