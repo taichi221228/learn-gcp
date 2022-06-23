@@ -8,4 +8,6 @@ RUN ls
 
 RUN npm ci --only=production
 
+RUN npm run build
+
 CMD [ "node", "server.js" ]
