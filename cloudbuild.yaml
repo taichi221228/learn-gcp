@@ -1,21 +1,11 @@
 steps:
   - name: 'gcr.io/kaniko-project/executor:latest'
     args:
-      #- build
-      #- '--no-cache'
-      #- '-t'
-      #- '$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA'
-      #- .
       - '--destination=$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA'
       - '--cache=true'
       - '-f'
       - Dockerfile
     id: Build and Push
-  #- name: gcr.io/cloud-builders/docker
-  #  args:
-  #    - push
-  #    - '$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA'
-  #  id: Push
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk:slim'
     args:
       - run
@@ -30,8 +20,6 @@ steps:
       - '--quiet'
     id: Deploy
     entrypoint: gcloud
-#images:
-#  - '$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA'
 options:
   substitutionOption: ALLOW_LOOSE
 substitutions:
