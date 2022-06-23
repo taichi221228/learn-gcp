@@ -38,7 +38,6 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://github.com/taichi221228/my-gcp-project#readme",
   "private": true,
   "scripts": {
     "build": "react-scripts build",
