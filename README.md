@@ -1,4 +1,4 @@
-# 🚀 Welcome to my GCP project!
+# 🚀 Welcome to my project!
 
 This app is bootstrapped by [CRA](https://create-react-app.dev/) and hosted by [GCP](https://cloud.google.com/docs).\
 When you push to the *master* branch in this repository, it will automatically connect to GCP.\
