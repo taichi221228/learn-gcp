@@ -24,9 +24,9 @@ options:
   substitutionOption: ALLOW_LOOSE
 substitutions:
   _PLATFORM: managed
-  _SERVICE_NAME: my-gcp-project
-  _LABELS: gcb-trigger-id=b9181f56-3679-4307-b059-1e2be69dcfd9
-  _TRIGGER_ID: b9181f56-3679-4307-b059-1e2be69dcfd9
+  _SERVICE_NAME: learn-gcp
+  _LABELS: gcb-trigger-id=d2a79a12-da84-4767-b737-5a38ac795e38
+  _TRIGGER_ID: d2a79a12-da84-4767-b737-5a38ac795e38
   _DEPLOY_REGION: asia-northeast1
   _GCR_HOSTNAME: asia.gcr.io
 tags:

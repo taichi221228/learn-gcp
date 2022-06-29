@@ -1,6 +1,6 @@
 {
-  "name": "my-gcp-project",
-  "description": "My GCP Project",
+  "name": "learn-gcp",
+  "description": "Learn GCP",
   "version": "0.1.0",
   "browserslist": {
     "production": [
@@ -15,7 +15,7 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/taichi221228/my-gcp-project/issues",
+    "url": "https://github.com/taichi221228/learn-gcp/issues",
     "email": "taichi221228@icloud.com"
   },
   "dependencies": {
