@@ -1,33 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import 'sanitize.css';
+import 'sanitize.css/forms.css';
+import 'sanitize.css/assets.css';
+import 'sanitize.css/system-ui.css';
+import 'sanitize.css/typography.css';
+import 'sanitize.css/reduce-motion.css';
+import 'sanitize.css/ui-monospace.css';
+
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This app is bootstrapped by{' '}
-          <a
-            className="App-link"
-            href="https://create-react-app.dev/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            CRA
-          </a>{' '}
-          and hosted by{' '}
-          <a
-            className="App-link"
-            href="https://cloud.google.com/docs"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GCP
-          </a>
-          .
-        </p>
-      </header>
+    <div className="wrapper">
+      <h1>Hello GCP!</h1>
+      <div className="img-wrapper">
+        <img src="/logo.svg" alt="" />
+      </div>
     </div>
   );
 }
